@@ -6,7 +6,7 @@ For my final project, I wanted to explore working with video and openFrameworks 
 
 My ultimate goal is to generate additional ways to process a video signal, but I ran out of time to make that happen. I was also having difficulty with some of the addons not running - I couldn't get Post Processing to run even with the examples.
 
-* There are two files in the movie player (the files can be accessed [here] (https://drive.google.com/a/newschool.edu/folderview?id=0B-fjHiqqjTI0V0ltaVlKRFdmOGc&usp=sharing). They can be faded down with the alpha channel as well as tinted with the R, G, B sliders.
+* There are two files in the movie player (the files can be accessed [here] (https://drive.google.com/a/newschool.edu/folderview?id=0B-fjHiqqjTI0V0ltaVlKRFdmOGc&usp=sharing)). They can be faded down with the alpha channel as well as tinted with the R, G, B sliders.
 
 * The position and scale of the two video streams can also be modified.  Each video also has a Center lock button which brings the video back to the center and will lock the scale/position when it is enabled.
 
