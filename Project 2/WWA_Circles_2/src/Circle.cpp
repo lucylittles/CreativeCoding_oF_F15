@@ -11,10 +11,15 @@
 void Circle::setup(){
     pos.x = ofRandom(0, 1024);
     pos.y = ofRandom(0, 768);
-    vel.x = ofRandom(-3, 3); //initial speed in the horizontal direction
-    vel.y = ofRandom(-3, 3); //initial speed in the vertical direction
-    acc.x = ofRandom(-1, 2); //initial horizontal acceleration - or direction
-    acc.y = ofRandom(-2, 1); //initial vertical acceleration - or direction
+//    vel.x = ofRandom(-3, 3); //initial speed in the horizontal direction
+//    vel.y = ofRandom(-3, 3); //initial speed in the vertical direction
+//    acc.x = ofRandom(-1, 2); //initial horizontal acceleration - or direction
+//    acc.y = ofRandom(-2, 1); //initial vertical acceleration - or direction
+    
+        vel.x = ofRandom(-10, 10); //initial speed in the horizontal direction
+        vel.y = 0; //initial speed in the vertical direction
+        acc.x = 0; //initial horizontal acceleration - or direction
+        acc.y = 0; //initial vertical acceleration - or direction
     
     
     circleColor = ofColor(255,255,255, ofRandom(0, 255));
